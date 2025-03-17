@@ -5,7 +5,7 @@ import { volumenCilindro, volumenCono, volumenCubo, volumenEsfera, volumenParale
 const pi = Math.PI;
 const figuresByOperation = {
   area: ["Cuadrado", "Rectángulo", "Círculo", "Triángulo", "Rombo", "Trapecio"],
-  perimeter: ["Cuadrado", "Rectángulo", "Círculo"],
+  perimeter: ["Cuadrado", "Rectángulo", "Círculo", "Trapecio"],
   volume: ["Esfera", "Cubo", "Paralelepípedo", "Cilindro", "Cono"]
 };
 
