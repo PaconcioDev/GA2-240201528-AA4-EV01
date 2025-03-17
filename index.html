@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Área, Volumen y Perímetro</title>
+</head>
+
+<body>
+  <h1>Área, Perímetro y Volumen</h1>
+  <h2 class='operation__title'>Elija una operación</h2>
+  <select name="operation" id="operation-select">
+    <option value="">-Elija una opción-</option>
+    <option value="area">Área</option>
+    <option value="perimeter">Perímetro</option>
+    <option value="volume">Volumen</option>
+  </select>
+  <section class='figure__section'>
+    <h3>Elija una figura</h3>
+    <select class='figure__select' name="figure" id="figure-select">
+    </select>
+  </section>
+  <form class='operation__form' id='input-form'>
+    <div id='input-field'></div>
+    <button type='submit'>Calcular</button>
+  </form>
+  <h2 class='operation__result'>Resultado: <span id='result'>---</span></h2>
+</body>
+<script type="module" src="src/index.js"></script>
+
+</html>

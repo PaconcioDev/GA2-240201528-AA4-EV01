@@ -1,0 +1,13 @@
+.figure__section {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.operation__form, .operation__result {
+  display: none;
+}
+
+.operation__form--visible, .operation__result--visible {
+  display: block;
+}
