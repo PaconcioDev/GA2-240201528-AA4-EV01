@@ -126,12 +126,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-
-
-
-
-
-
-
-
 export { pi };
